@@ -20,7 +20,7 @@
     </nav>
     <div>
       <h3>Name</h3>
-      <input type = "text" v-on:keyup = "shownamevalue" v-bind:style = "styleobj" placeholder = "Enter Bike's Name"/>
+      <input type = "text" v-on:keyup = "shownamevalue" v-bind:style = "styleobj" placeholder = "Enter Branch's Name"/>
       <br>
       <br>
       <button v-on:click = "submit" v-bind:style = "styleobj">Insert Bike</button>

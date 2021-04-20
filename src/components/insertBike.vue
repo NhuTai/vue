@@ -16,7 +16,7 @@
         :searchable="false"
         :close-on-select="true"
         :allow-empty="false"
-        placeholder="Select one"
+        placeholder="Select Branch"
         label="name"
         track-by="name">
       </multiselect>
@@ -29,7 +29,7 @@
           :searchable="false"
           :close-on-select="true"
           :allow-empty="false"
-          placeholder="Select one"
+          placeholder="Select Customer"
           label="name"
           track-by="name">
         </multiselect>
